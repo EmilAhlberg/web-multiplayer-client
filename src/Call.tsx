@@ -1,8 +1,8 @@
-import * as React from 'react'
+import React from 'react'
 import axios from 'axios'
 import { useQuery } from '@tanstack/react-query'
 
-const fetchData = async (): Promise => {
+const fetchData = async (): Promise<any> => {
   const data = await axios
     .get('http://localhost:8000')
     .then(res => {
