@@ -1,0 +1,30 @@
+{
+  "name": "web-multiplayer-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "magic": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmilAhlberg/web-multiplayer-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmilAhlberg/web-multiplayer-client/issues"
+  },
+  "homepage": "https://github.com/EmilAhlberg/web-multiplayer-client#readme",
+  "dependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.2",
+    "ts-loader": "^9.4.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
